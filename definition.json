@@ -1,0 +1,8 @@
+{
+  "actionClass": [
+    "Fusio\\Adapter\\Fusio\\Action\\FusioActionInvoke"
+  ],
+  "connectionClass": [
+    "Fusio\\Adapter\\Fusio\\Connection\\Fusio"
+  ]
+}
