@@ -21,7 +21,7 @@
 
 namespace Fusio\Adapter\Fusio\Tests;
 
-use Fusio\Adapter\Sql\Adapter;
+use Fusio\Adapter\Fusio\Adapter;
 use Fusio\Engine\Test\AdapterTestCase;
 
 /**
