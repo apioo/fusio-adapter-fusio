@@ -64,6 +64,7 @@ class Introspector implements IntrospectorInterface
         $action = $this->client->getBackendActionByActionId('~' . $entityName)->backendActionActionGet();
 
         $values = [
+            'Name' => $action->getName(),
             'Class' => $action->getClass(),
             'Engine' => $action->getEngine(),
             'Config' => \json_encode($action->getConfig(), \JSON_PRETTY_PRINT),
